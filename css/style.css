@@ -23,12 +23,12 @@ body {
   justify-content: center;
 }
 
-h3,
+h1,
 a {
   color: var(--color-text-dark);
 }
 
-h3 {
+h1 {
   font-size: 1.5em;
   font-weight: 900;
   text-align: left;

@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="icon"
@@ -12,39 +10,40 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <article class="container">
-      <figure>
-        <img
-          class="blog-image"
-          src="assets/images/illustration-article.svg"
-          alt="Image description" width="336" height="200"
-        />
-      </figure>
-      
-        <a href="#" class="card-btn">Learning</a>
-
-        <time datetime="2024-09-01">Published: 01 September 2024</time>
-      </header>
-      
-      <div>
-        <h3>HTML & CSS foundations</h3>
-
-        <p>
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-      </div>
-
-      <footer>
+    <!-- Main landmark to contain all primary content -->
+    <main>
+      <article class="container">
         <figure>
-          <img src="assets/images/image-avatar.webp" alt="Greg Hooper" />
-          <figcaption>Greg Hooper</figcaption>
+          <img
+            class="blog-image"
+            src="assets/images/illustration-article.svg"
+            alt="Image description"
+            width="336"
+            height="200"
+          />
         </figure>
-      </footer>
-    </article>
+
+        <a href="#" class="card-btn">Learning</a>
+        <time datetime="2024-09-01">Published: 01 September 2024</time>
+
+        <div>
+          <h1>HTML & CSS foundations</h1>
+          <p>
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+
+        <footer>
+          <figure>
+            <img src="assets/images/image-avatar.webp" alt="Greg Hooper" />
+            <figcaption>Greg Hooper</figcaption>
+          </figure>
+        </footer>
+      </article>
+    </main>
   </body>
 </html>
